@@ -12,5 +12,5 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
-result = model.invoke("What is the Capital of India")
+result = model.invoke("write a poem")
 print(result.content)
