@@ -1,6 +1,6 @@
 from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 
-# Notice the commas added below
+# Huggingface running locally
 llm = HuggingFacePipeline.from_model_id(
     model_id='meta-llama/Llama-3.2-1B-Instruct',
     task='text-generation',
